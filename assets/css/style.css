@@ -1,0 +1,53 @@
+body {
+    background-image: url(assets/images/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 400;
+    font-family: "Noto Serif", serif;
+}
+
+.game {
+    background-color: #80ced6;
+  
+    height: 590px;
+    text-align: center;
+
+}
+
+.players-name>label {
+    margin-right: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+    ;
+
+
+}
+
+.player-name>label,
+input {
+    margin-top: 100px;
+}
+
+.start-game {
+    margin-top: 150px;
+    font-size: 30px;
+    background-color: black;
+    color: rgb(128, 188, 234);
+    padding: 16px 32px;
+    margin-right: 20px;
+    border-radius: 30px;
+
+}
+
+@media (max-width: 750px) {
+    .players-name>label {
+        font-size: 12px;
+    }
+}
