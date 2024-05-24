@@ -1,8 +1,6 @@
 body {
-    background-image: url(assets/images/wallpaper.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: rgb(240, 240, 240);
+
 }
 
 .heading {
@@ -13,9 +11,11 @@ body {
 
 .game {
     background-color: #80ced6;
-  
+
     height: 590px;
     text-align: center;
+    font-family: "Noto Serif", serif;
+
 
 }
 
@@ -46,8 +46,122 @@ input {
 
 }
 
+.player1 {
+
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+.player2 {
+    display: flex;
+
+    justify-content: space-evenly;
+    border: none;
+
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+
+    padding: 10px;
+    font-size: 25px;
+
+}
+
+
+
+.move {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+.movesleft {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    text-align: center;
+
+    margin-bottom: 50px;
+
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+
+.options button {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.reload {
+
+
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 20px;
+    margin-top: 50px;
+    left: 50%;
+    border-radius: 12px;
+
+}
+
+.back {
+    margin-top: 14%;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+
+
 @media (max-width: 750px) {
+
+
     .players-name>label {
         font-size: 12px;
+    }
+
+    .options button {
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    .back {
+        margin-top: -8px;
     }
 }
