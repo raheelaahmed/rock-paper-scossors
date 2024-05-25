@@ -13,8 +13,8 @@ function displayPlayerNames() {
     const player2Name = localStorage.getItem('player2');
 
     if (player1Name && player2Name) {
-        document.getElementById("player1Score").textContent = player1Name;
-        document.getElementById("player2Score").textContent = player2Name;
+        document.getElementById("player1Score").textContent = player1Name + " " + "Score";
+        document.getElementById("player2Score").textContent = player2Name + " " + "Score";
     } else {
         // Handle case where no names are stored in local storage
     }
