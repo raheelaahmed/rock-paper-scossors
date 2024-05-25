@@ -1,11 +1,21 @@
 function getPlayerNames() {
     const player1Name = document.getElementById('p1name').value;
     const player2Name = document.getElementById('p2name').value;
+    localStorage.setItem('player1', player1Name);
+    localStorage.setItem('player2', player2Name);
 
     // Optional: Basic validation (e.g., check if names are empty)
 
     window.location.href = "rock-paper-scissors.html";
 }
+function displayPlayerNames() {
+    const player1Name = localStorage.getItem('player1');
+    const player2Name = localStorage.getItem('player2');
 
-document.getElementById("player1Score").innerHTML = document.getElementById('p1name').value;
-document.getElementById("player2Score").innerHTML = document.getElementById('p2name').value;
+    if (player1Name && player2Name) {
+        document.getElementById("player1Score").textContent = player1Name;
+        document.getElementById("player2Score").textContent = player2Name;
+    } else {
+        // Handle case where no names are stored in local storage
+    }
+}
