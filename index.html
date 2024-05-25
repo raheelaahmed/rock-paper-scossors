@@ -18,15 +18,19 @@
     <div class="game">
       <div class="players-name">
         <label>Enter Player1 Name:</label>
-        <span> <input type="text" placeholder="Enter your name" /></span>
+        <span>
+          <input type="text" id="p1name" placeholder="Enter your name"
+        /></span>
         <br />
         <label>Enter Player2 Name:</label>
-        <span> <input type="text" placeholder="Enter your name" /></span>
+        <span>
+          <input type="text" id="p2name" placeholder="Enter your name"
+        /></span>
         <br />
 
-        <a href="rock-paper-scissors.html"
-          ><button class="start-game">Start Game</button></a
-        >
+        <button class="start-game" onclick="getPlayerNames()">
+          Start Game
+        </button>
       </div>
     </div>
     <script src="assets/js/script.js"></script>
