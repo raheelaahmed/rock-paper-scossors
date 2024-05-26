@@ -16,6 +16,7 @@ function displayPlayerNames() {
         document.getElementById("player1Score").textContent = player1Name + " " + "Score";
         document.getElementById("player2Score").textContent = player2Name + " " + "Score";
     } else {
-        // Handle case where no names are stored in local storage
+        document.getElementById("player1Score").textContent = "Player1";
+        document.getElementById("player2Score").textContent = "player2";
     }
 }
