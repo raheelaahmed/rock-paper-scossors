@@ -11,39 +11,40 @@
       rel="stylesheet"
     />
 
-    <title>Rock paper Scissors</title>
   </head>
   <body  onload="displayPlayerNames()">
     <div class="heading"><h1>Rock paper Scissors</h1></div>
     <div class="game">
        <div class="player1" >
-      <h3 id="player1Score" >p1</h3>
-      <p >1<p>
+     <h3> <span id="player1Score"></span></h3>
+     
     </div>
     <div class="player2">
-      <h3 id="player2Score">p2</h3>
-      <p>1</p>
+      <h3> <span id="player2Score"></span></h3>
+     
     </div>
 
-    <div class="move">Choose your move</div>
+   
 
-    <!--Number of moves left before game ends -->
-       <div class="movesleft">Moves Left: <span id="movesLeft">10</span></div>
 
-    <!--Options available to player to play game -->
-     <div class="options">
-      <button class="rock">Rock</button>
-      <button class="paper">Paper</button>
-      <button class="scissor">Scissors</button>
+    <div class="options">
+      <button class="rock" onclick="player1Move(this, 'rock')">Rock</button>
+      <button class="paper" onclick="player1Move(this, 'paper')">Paper</button>
+      <button class="scissor" onclick="player1Move(this, 'scissors')">Scissors</button>
+    </div>
+      <h2 id="turns"></h2>
+      <div class="options2">
+      <button class="rock2" onclick="player2Move(this, 'rock2')">Rock2</button>
+      <button class="paper2" onclick="player2Move(this, 'paper2')">Paper2</button>
+      <button class="scissor2" onclick="player2Move(this, 'scissors2')">Scissors2</button>
     </div>
 
-    <!--Final result of game -->
- <div class="result" id="result"></div>
+    <h3 id="result" ></h1>
 
-    <!--Reload the game -->
-    <button class="reload">Reload</button>
-</div>
-    <a href="index.html"><button class="back">Back</button></a>
+    <button class="reload" >Reload</button>
+  </div>
+    <h3 id="result"></h3>
+  <a href="index.html"><button class="back">Back</button></a>
 
     </div>
     <script src="assets/js/script.js"></script>

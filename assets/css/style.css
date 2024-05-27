@@ -103,8 +103,23 @@ input {
 
 }
 
+.options2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 
 .options button {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.options2 button {
     font-size: 30px;
     background-color: black;
     color: white;
