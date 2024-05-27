@@ -4,7 +4,7 @@ function getPlayerNames() {
     localStorage.setItem('player1', player1Name);
     localStorage.setItem('player2', player2Name);
 
-    // Optional: Basic validation (e.g., check if names are empty)
+
 
     window.location.href = "rock-paper-scissors.html";
 }
