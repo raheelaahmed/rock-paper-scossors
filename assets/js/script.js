@@ -2,6 +2,7 @@
 let player;
 let computerChoice;
 let playerChoice;
+let gameCoice;
 
 
 
