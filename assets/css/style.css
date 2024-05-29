@@ -19,49 +19,43 @@ body {
 
 }
 
-.players-name>label {
-    margin-right: 50px;
-    margin-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Noto Serif", serif;
-    ;
 
 
+
+
+
+
+.player {
+
+    display: flex;
+    justify-content: space-evenly;
+    border: none;
+
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+
+    padding: 10px;
+    font-size: 25px;
 }
 
-.player-name>label,
-input {
-    margin-top: 100px;
-}
 
-.start-game {
-    margin-top: 150px;
-    font-size: 30px;
-    background-color: black;
-    color: rgb(128, 188, 234);
-    padding: 16px 32px;
-    margin-right: 20px;
-    border-radius: 30px;
+.computer {
+    display: flex;
+
+    justify-content: space-evenly;
+    border: none;
+
+    width: 50%;
+    margin: 0 auto;
+    background: none;
+
+    padding: 10px;
+    font-size: 25px;
 
 }
 
 .player1 {
-
-    display: flex;
-    justify-content: space-evenly;
-    border: none;
-
-    width: 50%;
-    margin: 0 auto;
-    background: none;
-
-    padding: 10px;
-    font-size: 25px;
-}
-
-
-.player2 {
     display: flex;
 
     justify-content: space-evenly;
@@ -73,7 +67,6 @@ input {
 
     padding: 10px;
     font-size: 25px;
-
 }
 
 
@@ -103,11 +96,7 @@ input {
 
 }
 
-.options2 {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-}
+
 
 
 .options button {
@@ -119,14 +108,7 @@ input {
     border-radius: 50%;
 }
 
-.options2 button {
-    font-size: 30px;
-    background-color: rgb(60, 140, 162);
-    color: white;
-    padding: 16px 32px;
-    margin-right: 20px;
-    border-radius: 50%;
-}
+
 
 .result {
     margin-top: 20px;
@@ -149,18 +131,23 @@ input {
 
 }
 
-.back {
-    margin-top: 14%;
-    margin-left: 15px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border-radius: 12px;
-}
+
 
 #movesLeft p {
     font-weight: bold;
     font-size: 16px;
+}
+
+#gameover {
+
+    background-color: #80ced6;
+
+    height: 560px;
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    display: none;
+
+
 }
 
 

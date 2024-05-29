@@ -64,16 +64,18 @@ function moveLeft() {
     let moves = parseInt(document.getElementById("movesLeft").innerHTML);
 
     moves = moves - 1;
-    if (moves === 0) {
-        document.getElementById("movesLeft").innerHTML = "Game Over";
-    }
-    else {
-
+    if (moves > 0) {
         document.getElementById("movesLeft").innerHTML = moves;
+    } else {
+        // Target the specific element within the class "game" to hide
+        document.querySelector(".game").style.display = "none";
+        // Update the gameover element's display
+        document.getElementById("gameover").style.display = "block";
     }
 
 
 }
+
 
 const reloadButton = document.getElementsByClassName("reload");
 
@@ -83,6 +85,23 @@ function reload() {
     // Reload the page using window.location.reload()
     window.location.reload();
 };
+
+let winner = document.querySelector("result");
+winner = "computer wins!";
+let winnerp = document.querySelector("result");
+winnerp = "player wins!";
+if (winner >= 4) {
+    document.getElementById("gamewinner").innerHTML = "computer wins";
+}
+else if (winnerp >= 4) {
+    document.getElementById("gamewinner").innerHTML = "player wins";
+}
+else {
+    document.getElementById("gamewinner").innerHTML = "Its a Tie";
+}
+
+
+
 
 
 
