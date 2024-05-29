@@ -59,12 +59,24 @@ function gameChoice() {
 }
 
 
-function movesLeft() {
+function moveLeft() {
 
     let moves = parseInt(document.getElementById("movesLeft").innerHTML);
-    let currentMove = moves - 1;
-    console.log(currentMove);
+
+    moves = moves - 1;
+    if (moves === 0) {
+        document.getElementById("movesLeft").innerHTML = "Game Over";
+    }
+    else {
+
+        document.getElementById("movesLeft").innerHTML = moves;
+    }
+
+
 }
+
+
+
 
 
 
