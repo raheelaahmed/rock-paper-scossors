@@ -101,6 +101,13 @@ else {
 }
 
 
+let computerscore = 0;
+computerscore = computerscore + 1;
+if (winner = "computer wins!") {
+    console.log(computerscore);
+}
+
+
 
 
 
