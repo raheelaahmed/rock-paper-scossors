@@ -75,6 +75,14 @@ function moveLeft() {
 
 }
 
+const reloadButton = document.getElementsByClassName("reload");
+
+// Add an event listener for the click event
+function reload() {
+    let reload = document.getElementsByClassName("reload").innerHTML;
+    // Reload the page using window.location.reload()
+    window.location.reload();
+};
 
 
 
