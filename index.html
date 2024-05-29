@@ -11,26 +11,45 @@
       rel="stylesheet"
     />
 
-    <title>Rock paper Scissors</title>
   </head>
-  <body>
+  <body >
     <div class="heading"><h1>Rock paper Scissors</h1></div>
-    <div class="game">
+     <div class="game">
       <div class="players-name">
         <label>Enter Player1 Name:</label>
         <span>
           <input type="text" id="p1name" placeholder="Enter your name"
         /></span>
-        <br />
-        <label>Enter Player2 Name:</label>
-        <span>
-          <input type="text" id="p2name" placeholder="Enter your name"
-        /></span>
-        <br />
-        <button class="start-game" onclick="getPlayerNames()">
-          Start Game
-        </button>
-      </div>
+    <div class="game">
+       <div class="player1" >
+     <h3> <span id="player1Score"></span></h3>
+     
+    </div>
+    <div class="computer">
+      <h3> <span id="computerScore"> computer</span></h3>
+     
+    </div>
+
+   <h3 class="movesleft">moves Left</h3>
+   <pid="movesLeft">6</p>
+
+
+    <div class="options">
+      <button class="rock" onclick="moveLeft(), gameChoice()">Rock</button>
+      <button class="paper" onclick="moveLeft(), gameChoice()">Paper</button>
+      <button class="scissor" onclick="moveLeft(), gameChoice()">Scissors</button>
+    </div>
+    <h3 id="computers choice"></h3>
+     
+   
+
+    <h3 id="result" ></h1>
+
+    <button class="reload"  >Reload</button>
+  </div>
+  
+
+
     </div>
     <script src="assets/js/script.js"></script>
   </body>
