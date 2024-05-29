@@ -39,7 +39,7 @@ function gameChoice() {
     else if (playerChoice === "paper" && computerChoice === 0) {
         document.getElementById("result").innerHTML = "player wins!";
     }
-    if (computerChoice === 2 && playerChoice === "paper") {
+    else if (computerChoice === 2 && playerChoice === "paper") {
         document.getElementById("result").innerHTML = "computer wins!";
     }
     else if (computerChoice === 1 && playerChoice === "rock") {
@@ -59,33 +59,15 @@ function gameChoice() {
 }
 
 
-function moveLeft() {
+function movesLeft() {
 
     let moves = parseInt(document.getElementById("movesLeft").innerHTML);
-
-    moves = moves - 1;
-    if (moves === 0) {
-        document.getElementById("movesLeft").innerHTML = "Game Over";
-    }
-    else {
-
-        document.getElementById("movesLeft").innerHTML = moves;
-    }
-
-
+    let currentMove = moves - 1;
+    console.log(currentMove);
 }
 
-//if (playerChoice === rock || playerChoice === paper || playerChoice === scissors) {
-// Update score only on valid player choices
-// let score = parseInt(document.getElementById("score").innerHTML);
-//score++
-//  ;
-// document.getElementById("score").innerHTML = score;
-// console.log("Score:", score); // Informative console output
-//} 
-//function endGame() {
 
-//}
+
 
 
 
