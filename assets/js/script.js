@@ -2,7 +2,9 @@
 let player;
 let computerChoice;
 let playerChoice;
-let gameCoice;
+
+
+
 
 
 
@@ -57,21 +59,21 @@ function gameChoice() {
 }
 
 
-//function moveLeft() {
+function moveLeft() {
 
-// let moves = parseInt(document.getElementById("movesLeft").innerHTML);
+    let moves = parseInt(document.getElementById("movesLeft").innerHTML);
 
-// moves = moves - 1;
-// if (moves === 0) {
-//    document.getElementById("movesLeft").innerHTML = "Game Over";
-// }
-// else {
+    moves = moves - 1;
+    if (moves === 0) {
+        document.getElementById("movesLeft").innerHTML = "Game Over";
+    }
+    else {
 
-//   document.getElementById("movesLeft").innerHTML = moves;
-// }
+        document.getElementById("movesLeft").innerHTML = moves;
+    }
 
 
-//}
+}
 
 //if (playerChoice === rock || playerChoice === paper || playerChoice === scissors) {
 // Update score only on valid player choices
