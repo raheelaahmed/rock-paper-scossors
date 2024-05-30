@@ -12,6 +12,7 @@ let playerscore = 0;
 let computerscore = 0;
 
 
+
 function gameChoice(playerChoice) {
 
     let computerChoice = choice[Math.floor(Math.random() * 3)];
@@ -43,6 +44,15 @@ function gameChoice(playerChoice) {
         computerscore++;
         computerScore.innerHTML = "Computer Score" + " " + computerscore;
 
+    }
+    if (playerscore > computerscore) {
+        gameWinner.innerHTML = "You are Winner!";
+    }
+    else if (playerscore < computerscore) {
+        gameWinner.innerHTML = "You Lost!";
+    }
+    else {
+        gameWinner.innerHTML = "Its A Tie!";
     }
 
 
