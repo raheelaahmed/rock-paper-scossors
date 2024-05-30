@@ -8,6 +8,9 @@ const result = document.getElementById("result");
 const gameWinner = document.getElementById("gamewinner");
 const choice = ["rock", "paper", "scissor"];
 let moves = parseInt(document.getElementById("movesLeft").innerHTML);
+let playerscore = 0;
+let computerscore = 0;
+
 
 function gameChoice(playerChoice) {
 
@@ -31,7 +34,25 @@ function gameChoice(playerChoice) {
     }
 
     document.getElementById("result").innerHTML = result;
+
+    if (result == " Player Wins!") {
+        playerscore++;
+        playerScore.innerHTML = "Player Score:" + " " + playerscore;
+    }
+    else if (result == " Computer Wins!") {
+        computerscore++;
+        computerScore.innerHTML = "Computer Score" + " " + computerscore;
+
+    }
+
+
+
+
+
 }
+
+
+
 
 
 
