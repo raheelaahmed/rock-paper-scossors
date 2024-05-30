@@ -1,7 +1,37 @@
+const playerScore = document.getElementById("player1Score");
+const computerScore = document.getElementById("computerScore");
 
-let player;
-let computerChoice;
-let playerChoice;
+const cpmputer = document.getElementById("computers choice");
+
+const player = document.getElementById("players choice");
+const result = document.getElementById("result");
+const gameWinner = document.getElementById("gamewinner");
+const choice = ["rock", "paper", "scissor"];
+let moves = parseInt(document.getElementById("movesLeft").innerHTML);
+
+function gameChoice(playerChoice) {
+
+    let computerChoice = choice[Math.floor(Math.random() * 3)];
+    document.getElementById("computers choice").innerHTML = "Computer's Choice" + " " + "is" + " " + computerChoice;
+    let result = "";
+    if (playerChoice === computerChoice) {
+        result = "Its a Tie!";
+    }
+    else if (playerChoice === "rock" && computerChoice === "scissor") {
+        result = " Player Wins!";
+    }
+    else if (playerChoice === "paper" && computerChoice === "rock") {
+        result = " Player Wins!";
+    }
+    else if (playerChoice === "scissor" && computerChoice === "paper") {
+        result = " Player Wins!";
+    }
+    else {
+        result = " Computer Wins!";
+    }
+
+    document.getElementById("result").innerHTML = result;
+}
 
 
 
@@ -10,9 +40,8 @@ let playerChoice;
 
 
 
-function gameChoice() {
-    let rock = document.getElementsByClassName("rock").innerHTML;
-
+// let rock = document.getElementsByClassName("rock").innerHTML;
+/*
     let paper = document.getElementsByClassName("paper").innerHTML;
     let scissors = document.getElementsByClassName("scissor").innerHTML;
     const playerChoice = ("rock", "paper", "scissor");
@@ -26,11 +55,9 @@ function gameChoice() {
         document.getElementById("computers choice").innerHTML = "Scissor";
     }
 
-
     if (playerChoice === "scissor" && computerChoice === 1) {
         document.getElementById("result").innerHTML = "player wins!";
     }
-
 
     else if (playerChoice === "rock" && computerChoice === 2) {
         document.getElementById("result").innerHTML = "player wins!";
@@ -55,9 +82,7 @@ function gameChoice() {
 
 
 
-
 }
-
 
 function moveLeft() {
 
@@ -73,9 +98,7 @@ function moveLeft() {
         document.getElementById("gameover").style.display = "block";
     }
 
-
 }
-
 
 const reloadButton = document.getElementsByClassName("reload");
 
@@ -86,51 +109,33 @@ function reload() {
     window.location.reload();
 };
 
-let winner = document.querySelector("result");
-winner = "computer wins!";
-let winnerp = document.querySelector("result");
-winnerp = "player wins!";
-if (winner >= 4) {
-    document.getElementById("gamewinner").innerHTML = "computer wins";
+
+const winningConditions = {
+    "Rock": "scissors",
+    "Paper": "rock",
+    "Scissors": "paper"
+};
+
+let gameWinner = "";
+
+if (winningConditions[playerChoice] === computerChoice) {
+    gameWinner = "Player wins!";
+} else if (computerChoice === winningConditions[playerChoice]) {
+    gameWinner = "Computer wins!";
+} else {
+    gameWinner = "It's a tie!";
 }
-else if (winnerp >= 4) {
-    document.getElementById("gamewinner").innerHTML = "player wins";
-}
-else {
-    document.getElementById("gamewinner").innerHTML = "Its a Tie";
+
+// Update the game winner display or handle scores as needed (replace placeholder)
+document.getElementById("gamewinner").innerHTML = gameWinner;
+
+// Helper function to validate player and computer choices (optional)
+function isValidChoice(choice) {
+    return ["Rock", "Paper", "Scissors"].includes(choice);
 }
 
 
 let computerscore = 0;
-computerscore = computerscore + 1;
-if (winner = "computer wins!") {
-    console.log(computerscore);
-}
+computerscore++;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.getElementById("computerScore").innerHTML = computerscore;*/
