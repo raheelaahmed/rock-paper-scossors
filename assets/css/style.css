@@ -5,8 +5,15 @@ body {
 
 .heading {
     text-align: center;
-    font-weight: 400;
+    font-weight: bold;
+    font-size: 25px;
+
     font-family: "Noto Serif", serif;
+    color: #ffff00;
+
+
+
+
 }
 
 .game {
@@ -15,29 +22,20 @@ body {
     height: 590px;
     text-align: center;
     font-family: "Noto Serif", serif;
-
-
-}
-
-
-
-
-
-
-
-.player {
-
-    display: flex;
-    justify-content: space-evenly;
-    border: none;
-
-    width: 50%;
+    color: black;
+    width: 550px;
     margin: 0 auto;
-    background: none;
 
-    padding: 10px;
-    font-size: 25px;
+
 }
+
+
+
+
+
+
+
+
 
 
 .computer {
@@ -71,13 +69,7 @@ body {
 
 
 
-.move {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-top: 1rem;
-    text-align: center;
 
-}
 
 .movesleft {
     font-size: 1.5rem;
@@ -88,6 +80,13 @@ body {
     margin-bottom: 50px;
 
 }
+
+#movesLeft {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 
 .options {
     display: flex;
@@ -142,10 +141,13 @@ body {
 
     background-color: #80ced6;
 
-    height: 560px;
+    height: 300px;
+    width: 300px;
     text-align: center;
     font-family: "Noto Serif", serif;
     display: none;
+    margin: 0 auto;
+    padding: 50px;
 
 
 }
@@ -154,6 +156,9 @@ body {
 
 @media (max-width: 750px) {
 
+    .heading {
+        font-size: 16px;
+    }
 
     .players-name>label {
         font-size: 12px;
@@ -168,16 +173,7 @@ body {
         border-radius: 50%;
     }
 
-    .options2 button {
-        font-size: 20px;
-        background-color: rgb(60, 140, 162);
-        color: white;
-        padding: 12px;
-        margin-right: 20px;
-        border-radius: 50%;
-    }
 
-    .back {
-        margin-top: -8px;
-    }
+
+
 }

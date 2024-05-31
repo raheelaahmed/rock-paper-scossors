@@ -1,9 +1,8 @@
 const playerScore = document.getElementById("player1Score");
 const computerScore = document.getElementById("computerScore");
 
-const cpmputer = document.getElementById("computers choice");
+const copmputer = document.getElementById("computers-choice");
 
-const player = document.getElementById("players choice");
 const result = document.getElementById("result");
 const gameWinner = document.getElementById("gamewinner");
 const choice = ["rock", "paper", "scissor"];
@@ -16,7 +15,7 @@ let computerscore = 0;
 function gameChoice(playerChoice) {
 
     let computerChoice = choice[Math.floor(Math.random() * 3)];
-    document.getElementById("computers choice").innerHTML = "Computer's Choice" + " " + "is" + " " + computerChoice;
+    document.getElementById("computers-choice").innerHTML = "Computer's Choice" + " " + "is" + " " + computerChoice;
     let result = "";
     if (playerChoice === computerChoice) {
         result = "Its a Tie!";
