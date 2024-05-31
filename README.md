@@ -1,39 +1,220 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to [Crochet-Guide!](https://raheelaahmed.github.io/crochet-guide/index.html)
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+I'm Rania, and crochet is my passion! This website is a space for me to share my love for the craft with all of you. Whether you're a seasoned crocheter or just picking up a hook for the first time, I hope you find something here to inspire you.
 
-## Codeanywhere Reminders
+This website is designed to share my crochet projects with you.
+website is user friendly, it has following features:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+####
+- Logo
+- Navigation bar
+    - [Home](https://raheelaahmed.github.io/crochet-guide/index.html)
+    - [Contact Us](https://raheelaahmed.github.io/crochet-guide/contact-us.html)
+    - [Written Patterns](https://raheelaahmed.github.io/crochet-guide/written-patterns.html)
+    - [Video Tutorials](https://raheelaahmed.github.io/crochet-guide/video-tutorials.html)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+"Home" is not included on the home page. All the 4 list items are linked to webpages.
+## Logo(Rania Crochet Guide):
+ Rania Crochet Guide is the Logo of the website and is linked to home page.
 
-`http_server`
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Logo](documents/screenshots/logo.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Contact Us:
+ This webpage have contact us form.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
----
+![contact-us](documents/screenshots/contactus.png)
 
-Happy coding!
+
+
+
+
+When submit button is pressed, it takes us to a new Webpage [submit-form.html](https://raheelaahmed.github.io/crochet-guide/submit-form.html?name=raheela&email=raheela%40gmail.com&message=hjkhj).
+
+
+
+
+
+
+![thankyou-message](documents/screenshots/thankyou.png)
+
+
+
+
+
+
+
+
+## Home: 
+This is linked to Home page, you can come back to home page with this feature.
+
+
+## Written Patterns:
+This is another page of the website that have images and  crochet pattern discription, this page is linked to an external blog.
+
+
+
+
+## Video Tutorial:
+This  webpage  have video tutorial for crochet projects. These video tutorials are embeded from Youtube.
+
+
+
+## TagLine and Hero Image:
+
+There is Tagline "keep Calm And Crochet On" and  a hero image under tagline of the page.
+
+
+
+ ![Hero-Image](documents/screenshots/home.png)
+
+
+
+
+## About us:
+ 
+ 
+ Below hero image there is another linked page "About Us".
+ on this webpage designer share her story of becoming a crochet designer.
+ 
+
+
+
+![about-us](documents/screenshots/about-us.png)
+
+
+
+## Footer:
+ you can find all Social media links here. Linked pages opens in a new window.
+
+
+ ![Footer](assets/images/footer.png)
+
+
+
+
+## Credits:
+
+I have used  images from "Pexel.com, Unsplash.com and FreeImages.com". Images used on written pattern are from "Rania Crochet Guide".
+
+
+
+## Fonts and Icons:
+ Google font and Font Awesome icons are used for styling the website.
+
+
+
+## Deployment:
+
+I used GitHub for creating my repository and Codespaces for developing my website. I deployed my project through GitHub by following these steps:
+
+
+####
+
+1. Click Settings.
+1. From the left sidebar menu, open Pages.
+1. Select the "main" branch as the root branch.
+1. eploy your work.
+1. The website link will appear in a few seconds.
+
+
+Live Website link : https://raheelaahmed.github.io/crochet-guide/
+
+
+
+## Cloning:
+
+ You can clone this project using this URL: "https://github.com/raheelaahmed/crochet-guide.git".
+
+
+
+
+
+## TESTING: 
+
+I tested my website  CSS code using official Jigsaw Validator and there were no errors found in my css code.
+
+
+
+
+
+
+![css-validation](documents/screenshots/css-validation.png)
+
+
+
+
+
+
+I tested my HTML code using official W3C Validator and there were errors or warnings in my html code.
+
+### Note: 
+
+My file adds automatic self-closing tags on "save" in Gitpod.
+
+
+
+
+
+![HTML-testing](documents/screenshots/html-testing.png)
+
+
+
+
+
+
+
+
+
+
+
+I used Lighthouse in the DevTools to check accessibility. Here are the results:
+
+
+
+
+
+
+
+![lighthouse-performance](documents/screenshots/lighthouse.png)
+
+
+
+## Bugs ans Fixes:
+
+I was having problem with responsiveness of my webdesign and i solved my problem using "html Media Quries".
+
+
+
+
+
+![Responsive-design](documents/screenshots/responsivene-design.png)
+
+
+## Browser Testing:
+I tested my website on several browsers, including Chrome and Safari, and it's working fine.
+
+
+
+
+
+
+
+Thank you for visiting my website! I hope you find something here that sparks your creativity and brings you joy. Happy crocheting!
+
+
+
+
+
+
+
+
+### Rania Crochet Guide
