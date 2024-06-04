@@ -157,12 +157,11 @@ body {
 @media (max-width: 750px) {
 
     .heading {
-        font-size: 16px;
+        font-size: 15px;
+        text-align: center;
     }
 
-    .players-name>label {
-        font-size: 12px;
-    }
+
 
     .options button {
         font-size: 20px;
@@ -171,6 +170,29 @@ body {
         padding: 15px;
         margin-right: 20px;
         border-radius: 50%;
+    }
+
+    #gameover {
+
+        background-color: #80ced6;
+
+        height: 300px;
+
+        text-align: center;
+        font-family: "Noto Serif", serif;
+        display: none;
+
+        padding: 50px;
+
+    }
+
+    .game {
+        background-color: #80ced6;
+        width: 400px;
+        height: 620px;
+        text-align: center;
+        font-family: "Noto Serif", serif;
+        color: black;
     }
 
 
