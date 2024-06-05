@@ -5,16 +5,79 @@ Rock-Paper-Scissors is a classic hand game enjoyed by people of all ages. I have
  
 
 
-####
-Rock Paper Scissors:
+## Rock Paper Scissors:
+
+The page body has a background picture, a game heading, a game area and reload button in the center of the page.
 
 
-"Home" is not included on the home page. All the 4 list items are linked to webpages.
-## Logo(Rania Crochet Guide):
- Rania Crochet Guide is the Logo of the website and is linked to home page.
 
 
-![Logo](documents/screenshots/logo.png)
+### Heading:
+
+
+
+
+
+
+![Logo](documents/screenshots/heading.png)
+
+
+
+
+
+At the top of the page, there is a logo or heading.
+
+
+
+
+### Game Area:
+
+
+
+
+![game area](documents/screenshots/game-area.png)
+
+
+
+#### Score:
+
+
+In this game area, there are "Player Score:" and "Computer Score:". Scores will be displayed in front of them once they earn a score, and the scores will keep increasing with every round they win.
+
+
+
+#### Moves Left:
+
+Below the scores, there are "Total 10 Moves," which will decrease with every round. When the number of moves left reaches 0, the game ends.
+
+
+
+#### Button:
+
+
+There are three buttons: "Rock, Paper, and Scissors." The player will choose a button of their choice to play the game. The buttons will turn yellow with a CSS hover effect when the mouse goes over them, and will also work on mobile devices with a click.
+
+#### Computer Choice:
+
+The computer randomly picks "Rock, Paper, or Scissors" and displays its choice.
+
+
+#### Round Result:
+
+
+
+result is displayed at at of every round either compuer win or player wins or its ati
+
+
+
+
+
+
+
+
+
+
+
 
 
 
