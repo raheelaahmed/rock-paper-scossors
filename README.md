@@ -99,13 +99,12 @@ There is Tagline "keep Calm And Crochet On" and  a hero image under tagline of t
 
 
 ## Credits:
-
-I have used  images from "Pexel.com, Unsplash.com and FreeImages.com". Images used on written pattern are from "Rania Crochet Guide".
+I've used W3Schools for choosing background colors and YouTube for learning JavaScript.
 
 
 
 ## Fonts and Icons:
- Google font and Font Awesome icons are used for styling the website.
+ Google font are used for styling the website.
 
 
 
@@ -123,13 +122,13 @@ I used GitHub for creating my repository and Codespaces for developing my websit
 1. The website link will appear in a few seconds.
 
 
-Live Website link : https://raheelaahmed.github.io/crochet-guide/
+Live Website link :https://raheelaahmed.github.io/rock-paper-scossors/
 
 
 
 ## Cloning:
 
- You can clone this project using this URL: "https://github.com/raheelaahmed/crochet-guide.git".
+ You can clone this project using this URL: "https://github.com/raheelaahmed/rock-paper-scossors.git".
 
 
 
@@ -188,6 +187,7 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 ## Bugs ans Fixes:
 
 I was having problem with responsiveness of my webdesign and i solved my problem using "html Media Quries".
+I was having trouble setting the background image for the body. It wasn't working in my CSS file, but using the style attribute in HTML is working now.
 
 
 
@@ -214,4 +214,4 @@ Thank you for visiting my website! I hope you find something here that sparks yo
 
 
 
-### Rania Crochet Guide
+###Raheela Aftab
