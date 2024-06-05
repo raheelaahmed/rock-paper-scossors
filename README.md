@@ -6,12 +6,7 @@ Rock-Paper-Scissors is a classic hand game enjoyed by people of all ages. I have
 
 
 ####
-- Logo
-- Navigation bar
-    - [Home](https://raheelaahmed.github.io/crochet-guide/index.html)
-    - [Contact Us](https://raheelaahmed.github.io/crochet-guide/contact-us.html)
-    - [Written Patterns](https://raheelaahmed.github.io/crochet-guide/written-patterns.html)
-    - [Video Tutorials](https://raheelaahmed.github.io/crochet-guide/video-tutorials.html)
+Rock Paper Scissors:
 
 
 "Home" is not included on the home page. All the 4 list items are linked to webpages.
