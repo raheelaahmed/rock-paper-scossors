@@ -148,7 +148,7 @@ button:hover {
 
 #gameover {
 
-    background-color: #80ced6;
+    background-image: linear-gradient(to right, silver, #80ced6);
 
     height: 300px;
     width: 300px;
