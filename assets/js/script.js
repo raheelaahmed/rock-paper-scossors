@@ -1,79 +1,56 @@
+
 const playerScore = document.getElementById("player1Score");
 const computerScore = document.getElementById("computerScore");
-
-const copmputer = document.getElementById("computers-choice");
-
-const result = document.getElementById("result");
+const computerChoiceDisplay = document.getElementById("computers-choice");
+const resultDisplay = document.getElementById("result");
 const gameWinner = document.getElementById("gamewinner");
+const movesLeftDisplay = document.getElementById("movesLeft");
 const choice = ["rock", "paper", "scissor"];
-let moves = parseInt(document.getElementById("movesLeft").innerHTML);
-let playerscore = 0;
-let computerscore = 0;
-function gameChoice(playerChoice) {
+let moves = parseInt(movesLeft.innerHTML);
+let playerScoreValue = 0;
+let computerScoreValue = 0;
 
+function gameChoice(playerChoice) {
     let computerChoice = choice[Math.floor(Math.random() * 3)];
-    document.getElementById("computers-choice").innerHTML = "Computer's Choice" + " " + "is" + " " + computerChoice;
+    computerChoiceDisplay.innerHTML = "Computer's Choice is " + computerChoice;
     let result = "";
     if (playerChoice === computerChoice) {
-        result = "Its a Tie!";
-    }
-    else if (playerChoice === "rock" && computerChoice === "scissor") {
-        result = " Player Wins!";
-    }
-    else if (playerChoice === "paper" && computerChoice === "rock") {
-        result = " Player Wins!";
-    }
-    else if (playerChoice === "scissor" && computerChoice === "paper") {
-        result = " Player Wins!";
-    }
-    else {
-        result = " Computer Wins!";
-    }
-
-    document.getElementById("result").innerHTML = result;
-
-    if (result == " Player Wins!") {
-        playerscore++;
-        playerScore.innerHTML = "Player Score:" + " " + playerscore;
-    }
-    else if (result == " Computer Wins!") {
-        computerscore++;
-        computerScore.innerHTML = "Computer Score" + " " + computerscore;
-
-    }
-    if (playerscore > computerscore) {
-        gameWinner.innerHTML = "You are Winner!";
-    }
-    else if (playerscore < computerscore) {
-        gameWinner.innerHTML = "You Lost!";
-    }
-    else {
-        gameWinner.innerHTML = "Its A Tie!";
-    }
-}
-function moveLeft() {
-
-    let moves = parseInt(document.getElementById("movesLeft").innerHTML);
-
-    moves = moves - 1;
-    if (moves > 0) {
-        document.getElementById("movesLeft").innerHTML = moves;
+        result = "It's a Tie!";
+    } else if ((playerChoice === "rock" && computerChoice === "scissor") ||
+        (playerChoice === "paper" && computerChoice === "rock") ||
+        (playerChoice === "scissor" && computerChoice === "paper")) {
+        result = "Player Wins!";
+        playerScoreValue++;
+        playerScore.innerHTML = "Player Score: " + playerScoreValue;
     } else {
-        // Target the specific element within the class "game" to hide
+        result = "Computer Wins!";
+        computerScoreValue++;
+        computerScore.innerHTML = "Computer Score: " + computerScoreValue;
+    }
+    resultDisplay.innerHTML = result;
+    if (playerScoreValue > computerScoreValue) {
+        gameWinner.innerHTML = "You are Winner!";
+    } else if (playerScoreValue < computerScoreValue) {
+        gameWinner.innerHTML = "You Lost!";
+    } else {
+        gameWinner.innerHTML = "It's a Tie!";
+    }
+    moveLeft();
+}
+
+function moveLeft() {
+    moves--;
+    movesLeftDisplay.innerHTML = moves;
+    if (moves <= 0) {
         document.querySelector(".game").style.display = "none";
-        // Update the gameover element's display
         document.getElementById("gameover").style.display = "block";
     }
-
 }
 
-const reloadButton = document.getElementsByClassName("reload");
-
-// Add an event listener for the click event
 function reload() {
-    let reload = document.getElementsByClassName("reload").innerHTML;
-    // Reload the page using window.location.reload()
     window.location.reload();
 }
 
+const reloadButton = document.getElementsByClassName("reload")[0];
+reloadButton.addEventListener("click", reload);
 
