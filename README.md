@@ -1,11 +1,8 @@
-# Welcome to [Crochet-Guide!](https://raheelaahmed.github.io/crochet-guide/index.html)
+# Welcome to [Rock-Paper-Scissors!](https://raheelaahmed.github.io/rock-paper-scossors/)
 
 
-
-I'm Rania, and crochet is my passion! This website is a space for me to share my love for the craft with all of you. Whether you're a seasoned crocheter or just picking up a hook for the first time, I hope you find something here to inspire you.
-
-This website is designed to share my crochet projects with you.
-website is user friendly, it has following features:
+Rock-Paper-Scissors is a classic hand game enjoyed by people of all ages. I have created this game for computers and mobiles. It's a single-player game where you compete against the computer. I've provided buttons for you to choose your move (rock, paper, or scissors), and the computer picks its move randomly.
+ 
 
 
 ####
