@@ -9,9 +9,6 @@ const choice = ["rock", "paper", "scissor"];
 let moves = parseInt(document.getElementById("movesLeft").innerHTML);
 let playerscore = 0;
 let computerscore = 0;
-
-
-
 function gameChoice(playerChoice) {
 
     let computerChoice = choice[Math.floor(Math.random() * 3)];
@@ -53,29 +50,7 @@ function gameChoice(playerChoice) {
     else {
         gameWinner.innerHTML = "Its A Tie!";
     }
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function moveLeft() {
 
     let moves = parseInt(document.getElementById("movesLeft").innerHTML);
@@ -99,6 +74,6 @@ function reload() {
     let reload = document.getElementsByClassName("reload").innerHTML;
     // Reload the page using window.location.reload()
     window.location.reload();
-};
+}
 
 
