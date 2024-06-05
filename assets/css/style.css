@@ -183,9 +183,10 @@ button:hover {
 
     #gameover {
 
-        background-color: #80ced6;
 
+        width: 520;
         height: 300px;
+
 
         text-align: center;
         font-family: "Noto Serif", serif;
@@ -202,5 +203,10 @@ button:hover {
         font-family: "Noto Serif", serif;
         color: black;
 
+    }
+
+    button:hover {
+        background-color: yellow;
+        color: black;
     }
 }
