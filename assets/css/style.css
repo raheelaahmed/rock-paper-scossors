@@ -168,6 +168,7 @@ button:hover {
     .heading {
         font-size: 15px;
         text-align: center;
+        width: 375px;
     }
 
 
@@ -184,7 +185,7 @@ button:hover {
     #gameover {
 
 
-        width: 520;
+        width: 375px;
         height: 300px;
 
 
@@ -194,11 +195,12 @@ button:hover {
 
         padding: 50px;
 
+
     }
 
     .game {
-        width: 520px;
-        height: 750px;
+        width: 375px;
+        height: 650px;
         text-align: center;
         font-family: "Noto Serif", serif;
         color: black;
