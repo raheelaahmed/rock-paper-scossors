@@ -65,9 +65,7 @@ The computer randomly picks "Rock, Paper, or Scissors" and displays its choice.
 #### Round Result:
 
 
-
-result is displayed at at of every round either compuer win or player wins or its ati
-
+The result is displayed at the end of every round. It can be a computer win, a player win, or a tie.
 
 
 
@@ -81,77 +79,56 @@ result is displayed at at of every round either compuer win or player wins or it
 
 
 
-## Contact Us:
- This webpage have contact us form.
 
-
-
-![contact-us](documents/screenshots/contactus.png)
-
-
-
-
-
-When submit button is pressed, it takes us to a new Webpage [submit-form.html](https://raheelaahmed.github.io/crochet-guide/submit-form.html?name=raheela&email=raheela%40gmail.com&message=hjkhj).
-
-
-
-
-
-
-![thankyou-message](documents/screenshots/thankyou.png)
-
-
-
-
-
-
-
-
-## Home: 
-This is linked to Home page, you can come back to home page with this feature.
-
-
-## Written Patterns:
-This is another page of the website that have images and  crochet pattern discription, this page is linked to an external blog.
-
-
-
-
-## Video Tutorial:
-This  webpage  have video tutorial for crochet projects. These video tutorials are embeded from Youtube.
-
-
-
-## TagLine and Hero Image:
-
-There is Tagline "keep Calm And Crochet On" and  a hero image under tagline of the page.
-
-
-
- ![Hero-Image](documents/screenshots/home.png)
-
-
-
-
-## About us:
+#### Reload:
  
- 
- Below hero image there is another linked page "About Us".
- on this webpage designer share her story of becoming a crochet designer.
+At the bottom of the page, there's a reload button. Clicking it will restart the game.
+
+
+
+
+
+## Game Over and Winner:
+
+The game has a limited number of moves. When there are no moves left (moves left reach 0), the game ends, and the final result is displayed.
+
+
+
+
+![game over](documents/screenshots/game-over.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
 
-![about-us](documents/screenshots/about-us.png)
 
 
 
-## Footer:
- you can find all Social media links here. Linked pages opens in a new window.
-
-
- ![Footer](assets/images/footer.png)
 
 
 
