@@ -215,7 +215,7 @@ I was having trouble setting the background image for the body. It wasn't workin
 
 
 
-![Responsive-design](documents/screenshots/responsivene-design.png)
+
 
 
 ## Browser Testing:
