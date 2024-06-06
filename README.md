@@ -206,9 +206,9 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
 
 
-## Bugs ans Fixes:
+## Bugs andFixes:
 
-I was having problem with responsiveness of my webdesign and i solved my problem using "html Media Quries".
+I was having problem with responsiveness of my web design and i solved my problem using "html Media Quries".
 I was having trouble setting the background image for the body. It wasn't working in my CSS file, but using the style attribute in HTML is working now.
 
 
@@ -236,4 +236,4 @@ Thank you for visiting my website! I hope you find something here that sparks yo
 
 
 
-###Raheela Aftab
+## Raheela Aftab
