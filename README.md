@@ -99,37 +99,15 @@ The game has a limited number of moves. When there are no moves left (moves left
 
 
 
+## Responsive Design:
+
+The website has a responsive design, meaning it adjusts to different screen sizes.
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
+![Responsive](documents/responsive-design.png)
 
 
 
@@ -195,9 +173,18 @@ My file adds automatic self-closing tags on "save" in Gitpod.
 
 
 
-![HTML-testing](documents/screenshots/html-testing.png)
+![HTML-testing](documents/screenshots/html-validation.png)
 
 
+
+
+### Java Script Validation:
+
+
+I tested my Java script code using JSHint and there were errors or warnings in my Java Script  code.
+
+
+![js-validation](documents/screenshots/js-validation.png)
 
 
 
@@ -215,7 +202,7 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
 
 
-![lighthouse-performance](documents/screenshots/lighthouse.png)
+![lighthouse-performance](documents/lighthouse.png)
 
 
 
