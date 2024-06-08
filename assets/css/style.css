@@ -1,8 +1,4 @@
-body {
-    background-color: #f2f2f2;
-
-}
-
+/*heading styling*/
 .heading {
     text-align: center;
     font-weight: bold;
@@ -14,11 +10,9 @@ body {
     width: 600px;
     margin: 0 auto;
 
-
-
-
 }
 
+/*div game styling*/
 .game {
 
     background-image: linear-gradient(to right, silver, #80ced6);
@@ -29,18 +23,9 @@ body {
     color: black;
     width: 550px;
     margin: 0 auto;
-
-
 }
 
-
-
-
-
-
-
-
-
+/*computer score styling*/
 
 .computer {
     display: flex;
@@ -57,6 +42,7 @@ body {
 
 }
 
+/*player score styling*/
 .player1 {
     display: flex;
 
@@ -73,7 +59,7 @@ body {
 
 
 
-
+/*moves left styling*/
 
 .movesleft {
     font-size: 1.5rem;
@@ -91,7 +77,7 @@ body {
 }
 
 
-
+/*button  styling*/
 .options {
     display: flex;
     justify-content: center;
@@ -111,18 +97,20 @@ body {
     border-radius: 50%;
 }
 
+/*button hover styling*/
 button:hover {
     background-color: yellow;
     color: black;
 }
 
-
+/*result styling*/
 
 .result {
     margin-top: 20px;
     font-size: 1.2rem;
 }
 
+/*reload button styling*/
 .reload {
 
 
@@ -140,11 +128,7 @@ button:hover {
 }
 
 
-
-#movesLeft p {
-    font-weight: bold;
-    font-size: 16px;
-}
+/*game over div styling*/
 
 #gameover {
 
@@ -162,7 +146,7 @@ button:hover {
 }
 
 
-
+/* styling for mobile screens*/
 @media (max-width: 750px) {
 
     .heading {
