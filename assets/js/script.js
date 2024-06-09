@@ -1,4 +1,4 @@
-
+//declaring variables//
 const playerScore = document.getElementById("player1Score");
 const computerScore = document.getElementById("computerScore");
 const computerChoiceDisplay = document.getElementById("computers-choice");
@@ -9,11 +9,12 @@ const choice = ["rock", "paper", "scissor"];
 let moves = parseInt(movesLeft.innerHTML);
 let playerScoreValue = 0;
 let computerScoreValue = 0;
-
+//player choice by button and computer choose randomly//
 function gameChoice(playerChoice) {
     let computerChoice = choice[Math.floor(Math.random() * 3)];
     computerChoiceDisplay.innerHTML = "Computer's Choice is " + computerChoice;
     let result = "";
+    //winner at  the end of each round//
     if (playerChoice === computerChoice) {
         result = "It's a Tie!";
     } else if ((playerChoice === "rock" && computerChoice === "scissor") ||
@@ -38,6 +39,7 @@ function gameChoice(playerChoice) {
     moveLeft();
 }
 
+//calculation of remaining moves//
 function moveLeft() {
     moves--;
     movesLeftDisplay.innerHTML = moves;
@@ -46,7 +48,7 @@ function moveLeft() {
         document.getElementById("gameover").style.display = "block";
     }
 }
-
+//restart button//
 function reload() {
     window.location.reload();
 }
