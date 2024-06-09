@@ -112,7 +112,8 @@ The website has a responsive design, meaning it adjusts to different screen size
 
 
 ## Credits:
-I've used W3Schools for choosing background colors and YouTube for learning JavaScript.
+I've used W3Schools for choosing background colors and i  have used this video from youtube for guidance. in java. script.
+ ihttps://www.youtube.com/watch?v=3uKdQx-SZ5A
 
 
 
