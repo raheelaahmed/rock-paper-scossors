@@ -45,7 +45,10 @@ function moveLeft() {
     movesLeftDisplay.innerHTML = moves;
     if (moves <= 0) {
         document.querySelector(".game").style.display = "none";
+
         document.getElementById("gameover").style.display = "block";
+
+        document.getElementById("play").style.display = "none";
     }
 }
 //restart button//
@@ -55,4 +58,19 @@ function reload() {
 
 const reloadButton = document.getElementsByClassName("reload")[0];
 reloadButton.addEventListener("click", reload);
+
+//pop up how to play//
+function popUp() {
+    const popup = document.getElementById("pop-up");
+    popup = document.getElementById("pop-up").style.display = "block";
+
+}
+//popup=none on double clicking//
+function doubleClick() {
+    const popup = document.getElementById("pop-up");
+    popup = document.getElementById("pop-up").style.display = "none";
+
+}
+
+
 
