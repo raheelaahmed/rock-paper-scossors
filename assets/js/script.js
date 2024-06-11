@@ -66,11 +66,27 @@ function popUp() {
 
 }
 //popup=none on double clicking//
-function doubleClick() {
+function popUpHidden() {
     const popup = document.getElementById("pop-up");
     popup = document.getElementById("pop-up").style.display = "none";
 
 }
+
+const button = document.getElementById("play");
+const popup = document.getElementById("pop-up");
+let clickTime = null; // Variable to track time of last click
+
+button.addEventListener("touchstart", function () {
+    const currentTime = new Date().getTime();
+
+    if (clickTime && currentTime - clickTime < 250) {
+        // Double tap detected (within 250ms)
+        popup.style.display = "none";
+    } else {
+        // Single tap
+        clickTime = currentTime; // Reset click time for double tap detection
+    }
+});
 
 
 
