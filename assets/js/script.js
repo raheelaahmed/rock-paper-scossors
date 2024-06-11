@@ -60,21 +60,21 @@ const reloadButton = document.getElementsByClassName("reload")[0];
 reloadButton.addEventListener("click", reload);
 
 //pop up how to play//
-const button = document.getElementById("play");
-let popup = document.getElementById("pop-up");
-function popUp() {
 
+function popUp() {
+    let popup = document.getElementById("pop-up");
     popup = document.getElementById("pop-up").style.display = "block";
 
 }
 //popup=none on double clicking//
 function popUpHidden() {
-
+    let popup = document.getElementById("pop-up");
     popup = document.getElementById("pop-up").style.display = "none";
 
 }
 //popup for touch screens //
-
+const button = document.getElementById("play");
+let popup = document.getElementById("pop-up");
 let clickTime = null; // Variable to track time of last click
 
 button.addEventListener("touchstart", function () {
