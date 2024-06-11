@@ -20,7 +20,6 @@
       background-size: cover;
     "
   >
-
     <!-- Heading/logo-->
     <div class="heading">
       <h1>Rock Paper Scissors</h1>
@@ -53,23 +52,19 @@
       <!--reload button-->
       <button class="reload" onclick="reload()">Reload</button>
     </div>
-              <!-- how to play-->
+    <!-- how to play-->
     <div id="play">
       <button onclick="popUp()" ondblclick="popUpHidden()">How to play</button>
     </div>
     <div id="pop-up">
-     
       <h3>Choose your move by Buttons</h3>
       <h4>Computers move will be displayed once you press a button</h4>
-      <p><ul><li>Rock crushes Scissors.</li>
-<li>Paper covers Rock.</li>
-<li>Scissors cut Paper.</li>
-<li>If both players choose same move, it's a tie.</li>
-</ul>
-
-
-
-</p>
+      <ul>
+        <li>Rock crushes Scissors.</li>
+        <li>Paper covers Rock.</li>
+        <li>Scissors cut Paper.</li>
+        <li>If both players choose same move, it's a tie.</li>
+      </ul>
     </div>
 
     <!-- game over. and winner-->
@@ -78,7 +73,6 @@
       <h1 id="gamewinner">Winner</h1>
       <button class="reload" onclick="reload()">Play Again</button>
     </div>
-
 
     <script src="assets/js/script.js"></script>
   </body>

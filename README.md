@@ -3,28 +3,9 @@
 
 Rock-Paper-Scissors is a classic hand game enjoyed by people of all ages. I have created this game for computers and mobiles. It's a single-player game where you compete against the computer. I've provided buttons for you to choose your move (rock, paper, or scissors), and the computer picks its move randomly.
 
-## UX Design:
+
  
-   ### Target Audience:
-
-
-This website is designed to be user-friendly and suitable for all age groups.
-
-
-### Overall Look and Feel:
-
-The visual style should be clean, simple, and appealing to a broad audience. Consider using bright colors and friendly fonts.
-
-
-### Layout and Usability:
-
-#### Clear Display: All game elements should be clearly displayed on the screen, including:
-    Player score
-    Computer score
-    Remaining Moves
-    Computer's chosen move
-### Intuitive Interface:
-Large, clear buttons for Rock, Paper, and Scissors.
+ 
 
 
 
