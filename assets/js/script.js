@@ -49,6 +49,7 @@ function moveLeft() {
         document.getElementById("gameover").style.display = "block";
 
         document.getElementById("play").style.display = "none";
+        document.getElementById("pop-up").style.display="none";
     }
 }
 //restart button//
