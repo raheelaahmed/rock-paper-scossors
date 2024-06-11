@@ -125,6 +125,10 @@ The website has a responsive design, meaning it adjusts to different screen size
 ![Responsive](documents/screenshots/responsive-deisgn.png)
 
 
+## Lanuguages:
+I built this website using HTML for the structure, CSS for styling, and JavaScript for interactivity.
+
+
 
 ## Credits:
 I used W3Schools to choose background colors and a YouTube video for guidance with JavaScript (https://www.youtube.com/watch?v=-jeHs213y-A). I also used AI to help fix the code for double-clicking on touchscreens.
@@ -164,60 +168,16 @@ Live Website link :https://raheelaahmed.github.io/rock-paper-scossors/
 
 ## TESTING: 
 
-I tested my website  CSS code using official Jigsaw Validator and there were no errors found in my css code.
-
-
-
-
-
-
-![css-validation](documents/screenshots/css-validation.png)
-
-
-
-
-
-
-I tested my HTML code using official W3C Validator and there were errors or warnings in my html code.
-
-### Note: 
-
-My file adds automatic self-closing tags on "save" in Gitpod.
-
-
-
-
-
-![HTML-testing](documents/screenshots/html-validation.png)
-
-
-
-
-### Java Script Validation:
-
-
-I tested my Java script code using JSHint and there were errors or warnings in my Java Script  code.
-
-
-![js-validation](documents/screenshots/java-validation.png)
-
-
-
-
-
-
-
-
-
 I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
-
-
-
-
-
-
 ![lighthouse-performance](documents/lighthouse.png)
+
+
+| Tests     | Passed    | Failed    |
+| :---      |    :----: |       ---:|
+| Jshint    | yes      | no   |
+|official W3C validator  | yes       | no      |
+| official (Jigsaw) validator   |yes.       |no.       |
 
 
 
