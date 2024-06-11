@@ -204,7 +204,6 @@ I tested my website on several browsers, including Chrome and Safari, and it's w
 
 
 
-Thank you for visiting my website! I hope you find something here that sparks your creativity and brings you joy. Happy crocheting!
 
 
 
