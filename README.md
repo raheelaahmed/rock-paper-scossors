@@ -5,8 +5,10 @@ Rock-Paper-Scissors is a classic hand game enjoyed by people of all ages. I have
 
 
 ## Rock Paper Scissors:
-
-The page body has a background picture, a game heading, a game area reload button and How To Play button in the center of the page.
+* Engaging Background: The website sets the tone with a captivating rock background image that fills the page body.
+* Gradient-Infused Heading: A captivating heading graces the top of the page, featuring a background with a smooth gradient color transition.
+* Centralized Elements: All interactive components, including the game area, reload button, and "How To Play" button, are conveniently positioned in the center of the page for easy access. This user-friendly layout ensures a streamlined experience on any device.
+* Matching Aesthetics: The game area seamlessly complements the heading with a background that echoes the gradient color scheme, creating a cohesive visual experience.
 
 
 
