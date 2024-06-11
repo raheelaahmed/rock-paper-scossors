@@ -34,7 +34,7 @@ At the top of the page, there is a logo or heading.
 
 
 
-![game area](documents/screenshots/game-area.png)
+![game area](documents/screenshots/game.png)
 
 
 
