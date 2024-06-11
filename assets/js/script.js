@@ -71,7 +71,7 @@ function popUpHidden() {
     popup = document.getElementById("pop-up").style.display = "none";
 
 }
-
+//popup for touch screens//
 const button = document.getElementById("play");
 const popup = document.getElementById("pop-up");
 let clickTime = null; // Variable to track time of last click
