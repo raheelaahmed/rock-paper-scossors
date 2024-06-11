@@ -2,28 +2,6 @@
 
 
 Rock-Paper-Scissors is a classic hand game enjoyed by people of all ages. I have created this game for computers and mobiles. It's a single-player game where you compete against the computer. I've provided buttons for you to choose your move (rock, paper, or scissors), and the computer picks its move randomly.
-## Rock Paper Scissors:
-
-## Responsive Design:
-
-## Main Technologies:
-
-## Credits:
-
-## Deployment:
-
-## Cloning:
-
-## TESTING: 
-
-
- 
- 
-
-
-
-
-
 
 
 ## Rock Paper Scissors:
