@@ -166,7 +166,7 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
 | Tests     | Passed    | Failed    |
 | :---      |    :----: |       ---:|
-| Jshint    | yes      | no   |
+|Jshint   | yes      | no   |
 |official W3C validator  | yes       | no      |
 | official (Jigsaw) validator   |yes.       |no.       |
 
