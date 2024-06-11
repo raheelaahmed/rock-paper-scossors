@@ -93,6 +93,13 @@ The result is displayed at the end of every round. It can be a computer win, a p
 At the bottom of the page, there's a reload button. Clicking it will restart the game.
 
 
+#### How To Play:
+There is a "How To Play" button at the bottom of the page. Clicking the button displays a popup box that explains the game rules and instructions. Double-clicking the popup makes it disappear. This functionality works on touchscreens as well.
+
+
+
+![popup](documents/screenshots/pop-up.png)
+
 
 
 
@@ -115,13 +122,12 @@ The website has a responsive design, meaning it adjusts to different screen size
 
 
 
-![Responsive](documents/responsive-design.png)
+![Responsive](documents/screenshots/responsive-deisgn.png)
 
 
 
 ## Credits:
-I've used W3Schools for choosing background colors and i  have used this video from youtube for guidance. in java. script.
- ihttps://www.youtube.com/watch?v=3uKdQx-SZ5A
+I used W3Schools to choose background colors and a YouTube video for guidance with JavaScript (https://www.youtube.com/watch?v=-jeHs213y-A). I also used AI to help fix the code for double-clicking on touchscreens.
 
 
 
@@ -193,7 +199,7 @@ My file adds automatic self-closing tags on "save" in Gitpod.
 I tested my Java script code using JSHint and there were errors or warnings in my Java Script  code.
 
 
-![js-validation](documents/screenshots/js-validation.png)
+![js-validation](documents/screenshots/java-validation.png)
 
 
 
@@ -219,6 +225,8 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
 I was having problem with responsiveness of my web design and i solved my problem using "html Media Quries".
 I was having trouble setting the background image for the body. It wasn't working in my CSS file, but using the style attribute in HTML is working now.
+I was having trouble with double clicks registering on mobile screens. I fixed this by using the touchstart function in JavaScript.
+
 
 
 
