@@ -1,9 +1,15 @@
 //declaring variables//
+
+//players score display//
 const playerScore = document.getElementById("player1Score");
 const computerScore = document.getElementById("computerScore");
+//computers choice dispaly//
 const computerChoiceDisplay = document.getElementById("computers-choice");
+//result dispaly//
 const resultDisplay = document.getElementById("result");
+//game winner dispaly//
 const gameWinner = document.getElementById("gamewinner");
+//remaining moves dispaly//
 const movesLeftDisplay = document.getElementById("movesLeft");
 const choice = ["rock", "paper", "scissor"];
 let moves = parseInt(movesLeft.innerHTML);
@@ -21,6 +27,7 @@ function gameChoice(playerChoice) {
         (playerChoice === "paper" && computerChoice === "rock") ||
         (playerChoice === "scissor" && computerChoice === "paper")) {
         result = "Player Wins!";
+
         playerScoreValue++;
         playerScore.innerHTML = "Player Score: " + playerScoreValue;
     } else {
@@ -49,7 +56,7 @@ function moveLeft() {
         document.getElementById("gameover").style.display = "block";
 
         document.getElementById("play").style.display = "none";
-        document.getElementById("pop-up").style.display="none";
+        document.getElementById("pop-up").style.display = "none";
     }
 }
 //restart button//
