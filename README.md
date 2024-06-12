@@ -172,6 +172,19 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 |official W3C validator  | yes       | no      |
 | official (Jigsaw) validator   |yes.       |no.       |
 
+## JS Validation:
+![JSHint](documents/screenshots/java-validation.png)
+
+
+## HTML Validation:
+
+
+![w3 validator](documents/screenshots/html-validation.png)
+
+
+## Css validation:
+
+![jigsaw validator](documents/screenshots/css-validation.png)
 
 
 ## Bugs andFixes:
