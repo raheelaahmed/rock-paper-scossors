@@ -56,7 +56,7 @@ Below the scores, there are "Total 10 Moves," which will decrease with every rou
 #### Button:
 
 
-There are three buttons: "Rock, Paper, and Scissors." The player will choose a button of their choice to play the game. The buttons will turn yellow with a CSS hover effect when the mouse goes over them, and will also work on mobile devices with a click.
+There are three buttons: "Rock, Paper, and Scissors." The player will choose a button of their choice to play the game. The buttons will turn yellow with a CSS hover effect when the mouse goes over them, and will also work on mobile devices with a tap on button.
 
 #### Computer Choice:
 
