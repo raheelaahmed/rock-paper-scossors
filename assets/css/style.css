@@ -168,19 +168,22 @@ button:hover {
     font-family: "Noto Serif", serif;
     display: none;
     margin: 0 auto;
-    padding: 50px;
+    padding: 100px;
 
 
 }
 
 
+
+
+
 /* styling for mobile screens*/
-@media (max-width: 750px) {
+@media (min-width: 300px) and (max-width:700px) {
 
     .heading {
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
-        width: 375px;
+        width: 300px;
     }
 
 
@@ -196,15 +199,16 @@ button:hover {
 
     #gameover {
 
-
-        width: 240px;
+        padding: 20px;
+        margin-top: 100px;
+        width: 300px;
         height: 300px;
 
 
         text-align: center;
         font-family: "Noto Serif", serif;
         display: none;
-        margin: 0 auto;
+
 
 
 
@@ -225,6 +229,68 @@ button:hover {
         background-color: yellow;
         color: black;
     }
+
+    #play {
+
+        text-align: center;
+
+        width: 100%;
+    }
+}
+
+@media (min-width: 750px) and (max-width:1200px) {
+
+    .heading {
+        font-size: 20px;
+        text-align: center;
+        width: 700px;
+    }
+
+
+
+    .options button {
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        padding: 16px 32px;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+
+    button:hover {
+        background-color: yellow;
+        color: black;
+    }
+
+    #gameover {
+
+        padding: 100px;
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+
+
+        text-align: center;
+        font-family: "Noto Serif", serif;
+        display: none;
+
+
+
+
+
+    }
+
+    .game {
+        width: 700px;
+        height: 700px;
+        text-align: center;
+        font-family: "Noto Serif", serif;
+        color: black;
+        padding: 0;
+
+    }
+
+
 
     #play {
 
