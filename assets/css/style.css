@@ -17,11 +17,11 @@
 
     background-image: linear-gradient(to right, silver, #80ced6);
 
-    height: 590px;
+    height: 600px;
     text-align: center;
     font-family: "Noto Serif", serif;
     color: black;
-    width: 550px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -162,8 +162,8 @@ button:hover {
 
     background-image: linear-gradient(to right, silver, #80ced6);
 
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     text-align: center;
     font-family: "Noto Serif", serif;
     display: none;
