@@ -215,9 +215,11 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
 ## Bugs andFixes:
 
-I was having problem with responsiveness of my web design and i solved my problem using "html Media Quries".
-I was having trouble setting the background image for the body. It wasn't working in my CSS file, but using the style attribute in HTML is working now.
-I was having trouble with double clicks registering on mobile screens. I fixed this by using the touchstart function in JavaScript.
+* I was having problem with responsiveness of my web design and i solved my problem using "html Media Quries".
+* I was having trouble setting the background image for the body. It wasn't working in my CSS file, but using the style attribute in HTML is working now.
+* I was having trouble with double clicks registering on mobile screens. I fixed this by using the touchstart function in JavaScript.
+
+* Note(In html longer code automaticlly shifts to next line on saving), i could not fix it)
 
 
 
