@@ -161,6 +161,32 @@ Live Website link :https://raheelaahmed.github.io/rock-paper-scossors/
 
 ## TESTING: 
 
+
+### Manual Testing:
+
+
+| Tests     | working   |    
+| :---      |    :----: |       
+| player's Score Display   | yes      | 
+|Computer's Score Display  | yes       | 
+| Score increment   |yes.       |
+|Result Display|  yes|
+|Computer's choice display|yes|
+|Moves reduction| yes|
+|Mouse hoover color|yes|
+|Button Tap for hover color on touch screen|yes|
+|Reload button|yes|
+|Game Over display|yes|
+|Game winner display|yes|
+|how to play button|yes|
+
+
+
+
+
+
+
+
 I used Lighthouse in the DevTools to check accessibility. Here are the results:
 
 ![lighthouse-performance](documents/lighthouse.png)
@@ -172,17 +198,17 @@ I used Lighthouse in the DevTools to check accessibility. Here are the results:
 |official W3C validator  | yes       | no      |
 | official (Jigsaw) validator   |yes.       |no.       |
 
-## JS Validation:
+### JS Validation:
 ![JSHint](documents/screenshots/java-validation.png)
 
 
-## HTML Validation:
+### HTML Validation:
 
 
 ![w3 validator](documents/screenshots/html-validation.png)
 
 
-## Css validation:
+### Css validation:
 
 ![jigsaw validator](documents/screenshots/css-validation.png)
 
